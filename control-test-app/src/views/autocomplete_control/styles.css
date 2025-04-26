@@ -1,0 +1,38 @@
+.dropdown {
+    position: relative;
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    width: 250px;
+    border: 1px solid #ddd;
+    overflow-y: scroll;
+    max-height: 200px;
+}
+
+.dropdown input {
+    width: 250px;
+}
+
+.dropdown-content > div {
+    color: black;
+    padding: 5px 5px;
+}
+
+.dropdown-element:hover {
+    color: #6600ff;
+}
+
+.dropdown-element {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-flag {
+    width: 20px;
+    height: 10px;
+}
